@@ -1,0 +1,8 @@
+class Car:
+  def start(self):
+      print("This car is starting")
+      
+      
+c1 = Car()
+
+c1.start()
