@@ -1,0 +1,11 @@
+class Animal:
+    def speak(self):
+        print("Animal speak")
+        
+        
+class Cat(Animal):
+    def meow(self):
+        print("Cat says meows")
+        
+c1 = Cat()
+c1.meow()
