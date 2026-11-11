@@ -1,0 +1,22 @@
+class Person:
+    def display_person(self):
+        print("Name: Deepika")
+
+class Student(Person):
+    def display_student(self):
+        print("Roll No: 101")
+
+class Sports(Person):
+    def display_sports(self):
+        print("Sport: Badminton")
+
+class Result(Student, Sports):
+    def display_result(self):
+        print("Marks: 90")
+
+Person = Result()
+
+Person.display_person()
+Person.display_student()
+Person.display_sports()
+Person.display_result()
