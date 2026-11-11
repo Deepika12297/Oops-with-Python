@@ -1,0 +1,14 @@
+class Student:
+    def display(self):
+        print("Name:", self.name)
+        print("Roll No:", self.roll_no)
+        print("Marks:", self.marks)
+
+
+s1 = Student()
+
+s1.name = "Deepika"
+s1.roll_no = 101
+s1.marks = 90
+
+s1.display()
